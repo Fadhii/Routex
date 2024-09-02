@@ -97,7 +97,7 @@ function Header() {
 
         </ul>
        
-        <div className="hidden lg:flex items-center space-x-2 mr-4 rounded-md">
+        <div className="hidden lg:flex items-center space-x-2 mr-6 rounded-md">
     <i className="fa-regular fa-comments text-green-950 text-2xl"></i>
     <div>
         <p className="text-xs font-thin text-black">Need help?</p>

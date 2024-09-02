@@ -4,22 +4,22 @@ function Footer() {
   return (
     <footer className="bg-green-900 text-white py-10">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-           
-              <img src="https://static.vecteezy.com/system/resources/thumbnails/021/286/390/small/aeroplane-airplane-icon-on-transparent-background-free-png.png" alt="Routex Logo" className="h-10 w-16" />
+              <img
+                src="https://static.vecteezy.com/system/resources/thumbnails/021/286/390/small/aeroplane-airplane-icon-on-transparent-background-free-png.png"
+                alt="Routex Logo"
+                className="h-10 w-16"
+              />
               <h3 className="text-2xl font-bold">RouteX</h3>
             </div>
-        
             <p className="text-gray-400 font-thin text-xs px-4">
               123 Routex Street,<br />
               City, Country, 12345
             </p>
           </div>
 
-         
           <div className="text-xs">
             <h4 className="text-lg font-semibold mb-4">Service Menu</h4>
             <ul className="text-gray-400">
@@ -42,7 +42,6 @@ function Footer() {
             </ul>
           </div>
 
-          
           <div className="text-xs">
             <h4 className="text-lg font-semibold mb-4">Useful Links</h4>
             <ul className="text-gray-400">
@@ -65,16 +64,15 @@ function Footer() {
             </ul>
           </div>
 
-          
           <div>
             <h4 className="text-lg font-semibold mb-4">Gallery</h4>
             <div className="grid grid-cols-3 gap-2">
               <img src="https://media.gettyimages.com/id/1254092294/photo/travelling-together.jpg?s=612x612&w=0&k=20&c=aGht2RAqjsexqTA-B1EjJhoadqWznIwLvIeYPAPfEhk=" alt="Gallery Image 1" className="w-full h-auto rounded-lg" />
               <img src="https://media.gettyimages.com/id/1473319745/photo/solo-traveler.jpg?s=612x612&w=0&k=20&c=eLjnOTAMREeYuiPVA1Tje6I3VqprMS42iKtCTVjfX8I=" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
-              <img src="https://media.istockphoto.com/id/1161906433/photo/woman-using-smart-phone-on-vacations-in-athens.jpg?s=612x612&w=0&k=20&c=H5tlfcFgEpGd23kFYiHOckYO4NQMk5Dotw2-bgrbc9Y=" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
-              <img src="https://media.gettyimages.com/id/1292251389/photo/mature-couple-hike-above-lake-lugano-in-the-morning.jpg?s=612x612&w=0&k=20&c=lEA9E9-O-pV05ZzvrR6UJKJdU-fnRNeyabTqsNzg0tA=" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
-              <img src="https://media.istockphoto.com/id/1500563478/photo/traveler-asian-woman-relax-and-travel-on-thai-longtail-boat-in-ratchaprapha-dam-at-khao-sok.webp?b=1&s=612x612&w=0&k=20&c=lctMEC3mxw_T1N1rk1eAx5c9NRddxUj8ncaMxtBpIDU=" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
-              <img src="https://media.gettyimages.com/id/1357530144/photo/young-family-having-fun-traveling-together.jpg?s=612x612&w=0&k=20&c=9n0yR3q7w4ReuTiNA1k8D4BOl7__ZJ9K4ixT4kNhYZ8=" alt="Gallery Image 2" className="w-full h-auto rounded-lg" />
+              <img src="https://media.istockphoto.com/id/1161906433/photo/woman-using-smart-phone-on-vacations-in-athens.jpg?s=612x612&w=0&k=20&c=H5tlfcFgEpGd23kFYiHOckYO4NQMk5Dotw2-bgrbc9Y=" alt="Gallery Image 3" className="w-full h-auto rounded-lg" />
+              <img src="https://media.gettyimages.com/id/1292251389/photo/mature-couple-hike-above-lake-lugano-in-the-morning.jpg?s=612x612&w=0&k=20&c=lEA9E9-O-pV05ZzvrR6UJKJdU-fnRNeyabTqsNzg0tA=" alt="Gallery Image 4" className="w-full h-auto rounded-lg" />
+              <img src="https://media.istockphoto.com/id/1500563478/photo/traveler-asian-woman-relax-and-travel-on-thai-longtail-boat-in-ratchaprapha-dam-at-khao-sok.webp?b=1&s=612x612&w=0&k=20&c=lctMEC3mxw_T1N1rk1eAx5c9NRddxUj8ncaMxtBpIDU=" alt="Gallery Image 5" className="w-full h-auto rounded-lg" />
+              <img src="https://media.gettyimages.com/id/1357530144/photo/young-family-having-fun-traveling-together.jpg?s=612x612&w=0&k=20&c=9n0yR3q7w4ReuTiNA1k8D4BOl7__ZJ9K4ixT4kNhYZ8=" alt="Gallery Image 6" className="w-full h-auto rounded-lg" />
             </div>
           </div>
         </div>

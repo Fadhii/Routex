@@ -41,7 +41,7 @@ function About() {
           <h1 id="about" className="text-green-900 mb-6 font-bold text-4xl">
             Unknown Wanderlust Your Journey into
           </h1>
-          <p className="text-gray-700 text-xs mb-3 font-thin">
+          <p className="text-gray-700 text-sm mb-3 font-thin">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
             suscipit accusamus est nostrum repel.
           </p>
@@ -49,20 +49,20 @@ function About() {
             <div>
               <div className="flex gap-2 text-sm mr-7">
                 <i className="fa-solid fa-square-check text-sm" style={{ color: "#03d307" }}></i>
-                <h6 className="text-xs font-bold text-green-900">Safety Guides</h6>
+                <h6 className="text-sm font-bold text-green-900">Safety Guides</h6>
                 <br />
               </div>
-              <div className="text-xs font-thin">
+              <div className="text-sm font-thin">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </div>
             </div>
             <div>
               <div className="flex gap-2 text-sm">
                 <i className="fa-solid fa-square-check text-sm" style={{ color: "#03d307" }}></i>
-                <h6 className="text-xs font-bold text-green-900">Passport Assistance</h6>
+                <h6 className="text-sm font-bold text-green-900">Passport Assistance</h6>
                 <br />
               </div>
-              <div className="text-xs font-thin">
+              <div className="text-sm font-thin">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </div>
             </div>
